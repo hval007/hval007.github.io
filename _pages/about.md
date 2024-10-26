@@ -20,6 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 Here is my new site!
 Still under construction :)
+No update yet!
 
 <b>Does this update????<b>
 
