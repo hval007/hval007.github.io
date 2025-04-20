@@ -2,11 +2,7 @@
 layout: about
 title: about
 permalink: /
-<<<<<<< HEAD
 subtitle: <a href='#'></a>. 
-=======
-<!-- subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc. -->
->>>>>>> a3cda4252db1203cd9c3265fae8a6b6b28a121aa
 
 
 news: false # includes a list of news items
