@@ -649,3 +649,14 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+  plugins:
+  - jekyll-feed
+  - jekyll-toc
+
+# TOC settings
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
