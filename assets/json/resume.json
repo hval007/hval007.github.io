@@ -5,8 +5,6 @@
     "url": "https://nznux.com",
     "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
       "city": "Auckland",
       "countryCode": "NZ"
       
@@ -21,7 +19,7 @@
       "startDate": "1933-01-01",
       "endDate": "1955-01-01",
       "summary": "",
-      "highlights": ["Relativity"]
+      "highlights": [""]
     }
   ],
  
@@ -44,16 +42,10 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "",
+      "level": "",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
       ]
     }
   ],
@@ -63,9 +55,9 @@
       "name": "Homelab & Self Hosting solutions",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Home Lab",
         "Coding",
-        "Self hosting"
+        "Self hosting in Homelab",
+        "Home Automation"
         
       ]
     }
