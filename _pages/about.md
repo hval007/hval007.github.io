@@ -6,7 +6,7 @@ permalink: /
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 
@@ -18,7 +18,6 @@ My favourite music/band/album below:
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3737154637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://asuddenburstofcolour.bandcamp.com/album/galvanize-lp">Galvanize [LP] by A Sudden Burst of Colour</a></iframe>
 
 
-Contact me using the form below
 ## Contact Me
 
 <form method="post" action="https://formowl.dev/api/@/PSz2oL">
