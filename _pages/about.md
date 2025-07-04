@@ -11,8 +11,20 @@ social: true # includes social icons at the bottom of the page
 
 
 ## About Me
-I'm passionate about web technologies and open source, always eager to experiment with homelab setups and expand my coding skills. I enjoy sharing knowledge with the community and believe in continuous learning. Outside of tech, I value time with my family and love exploring the outdoors.
+I'm passionate about web technologies and open source, always eager to experiment with homelab setups and expand my coding skills. I believe in continuous learning and where possible always open to expanding my horizon. Outside of tech, I value time with my family and love exploring the outdoors.
 
-See my favourite music/band/album:
+My favourite music/band/album below:
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3737154637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://asuddenburstofcolour.bandcamp.com/album/galvanize-lp">Galvanize [LP] by A Sudden Burst of Colour</a></iframe>
+
+
+Contact me using the form below
+## Contact Me
+
+<form method="post" action="https://formowl.dev/api/@/PSz2oL">
+    <label for="firstName">First name</label>
+    <input name="first_name" id="firstName" type="text" />
+    <button type="submit">Submit</button>
+</form>
+
+
