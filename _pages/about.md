@@ -11,9 +11,9 @@ social: false # includes social icons at the bottom of the page
 
 
 ## About Me
-I'm passionate about web technologies and open source, always eager to experiment with homelab setups and expand my coding skills. I believe in continuous learning and where possible always open to expanding my horizon. Outside of tech, I value time with my family and love exploring the outdoors.
+I'm interested in web technologies and open source, and I enjoy learning by working on homelab projects. I like exploring new ideas and improving my skills. Outside of tech, I spend time with my family and enjoy being outdoors.
 
-My favourite music/band/album below:
+Currently listening to:
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3737154637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://asuddenburstofcolour.bandcamp.com/album/galvanize-lp">Galvanize [LP] by A Sudden Burst of Colour</a></iframe>
 
