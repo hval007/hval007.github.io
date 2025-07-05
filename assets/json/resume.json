@@ -7,9 +7,7 @@
     "location": {
       "city": "Auckland",
       "countryCode": "NZ"
-      
     }
-  
   },
   "work": [
     {
@@ -22,44 +20,31 @@
       "highlights": [""]
     }
   ],
- 
+
   "education": [
     {
       "institution": "University of Auckland",
       "location": "Auckland, NZ",
       "area": "Bachelor of Sciences"
-      
-      
-      
     }
   ],
-  
-  "certificates": [
 
-  ],
-  "publications": [
-  
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "",
       "level": "",
       "icon": "",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
-  
+
   "interests": [
     {
       "name": "Homelab & Self Hosting solutions",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Coding",
-        "Self hosting in Homelab",
-        "Home Automation"
-        
-      ]
+      "keywords": ["Coding", "Self hosting in Homelab", "Home Automation"]
     }
   ],
   "references": [
@@ -68,7 +53,5 @@
       "icon": "",
       "reference": ""
     }
-    
   ]
- 
 }
