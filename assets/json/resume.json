@@ -45,14 +45,13 @@
       "location": "Auckland, NZ",
       "area": "Bachelor of Sciences",
       "studyType": "BSc",
-      "startDate": "2010-02-01",
-      "endDate": "2013-11-30"
+      "startDate": "2007-02-01",
+      "endDate": "2011-02-30"
     }
   ],
   "certificates": [
     {
       "name": "ITIL v4 Foundation",
-      "date": "2021-06-01",
       "issuer": "AXELOS"
     }
   ],
