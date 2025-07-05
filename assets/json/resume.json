@@ -1,13 +1,27 @@
 {
   "basics": {
     "name": "Hemant Vallabh",
+    "label": "Customer Support Manager",
     "image": "",
-    "URL": "https://nznux.com",
-    "summary": "Experienced Customer Manager with 10+ years in support, SaaS, Helpdesk, Operations, and Customer engagement. Skilled in team leadership and process improvement.",
+    "url": "https://nznux.com",
+    "contact": "Contact me using contact form on my website.",
+    "summary": "Experienced Customer Support Manager with 10+ years in SaaS, Helpdesk, Operations, and Customer Engagement. Proven leader skilled in team building, process improvement, and ITSM tools. Passionate about delivering excellent customer experiences and driving operational efficiency.",
     "location": {
       "city": "Auckland",
       "countryCode": "NZ"
-    }
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "hemant-vallabh",
+        "url": "https://www.linkedin.com/in/hemant-vallabh-772b9037/"
+      },
+      {
+        "network": "GitHub",
+        "username": "hval007",
+        "url": "https://github.com/hval007"
+      }
+    ]
   },
   "work": [
     {
@@ -16,36 +30,70 @@
       "url": "https://www.invenco.com/",
       "startDate": "2022-04-01",
       "endDate": "",
-      "summary": "",
-      "highlights": [""]
+      "summary": "Lead a team of support professionals to deliver world-class customer service for SaaS and Payment solutions.",
+      "highlights": [
+        "Implemented ITIL v4 processes, improving ticket resolution time by 30%",
+        "Developed and led training programs for new support staff",
+        "Collaborated with product and engineering teams to resolve complex customer issues",
+        "Championed continuous improvement initiatives across the support department"
+      ]
     }
   ],
-
   "education": [
     {
       "institution": "University of Auckland",
       "location": "Auckland, NZ",
-      "area": "Bachelor of Sciences"
+      "area": "Bachelor of Sciences",
+      "studyType": "BSc",
+      "startDate": "2010-02-01",
+      "endDate": "2013-11-30"
     }
   ],
-
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "ITIL v4 Foundation",
+      "date": "2021-06-01",
+      "issuer": "AXELOS"
+    }
+  ],
   "publications": [],
   "skills": [
     {
-      "name": "ITIL Management v4, Agile, Leadership & Team Building, Continuous Improvement,     ITSM Tools",
-      "level": "",
-      "icon": "",
-      "keywords": []
+      "name": "ITIL Management v4",
+      "level": "Advanced",
+      "keywords": ["Incident Management", "Problem Management", "Change Management"]
+    },
+    {
+      "name": "Agile",
+      "level": "Intermediate",
+      "keywords": ["Scrum", "Kanban", "Continuous Improvement"]
+    },
+    {
+      "name": "Leadership & Team Building",
+      "level": "Advanced",
+      "keywords": ["Team Leadership", "Mentoring", "Training"]
+    },
+    {
+      "name": "ITSM Tools",
+      "level": "Advanced",
+      "keywords": ["ServiceNow", "Jira Service Management", "Zendesk"]
     }
   ],
-
   "interests": [
     {
-      "name": "",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Programming", "Homelab & Self Hosting solutions", "Smart Home Automation Projects"]
+      "name": "Programming",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "JavaScript", "Automation"]
+    },
+    {
+      "name": "Homelab & Self Hosting Solutions",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Docker", "Proxmox", "Networking"]
+    },
+    {
+      "name": "Smart Home Automation Projects",
+      "icon": "fa-solid fa-home",
+      "keywords": ["Home Assistant", "IoT", "Raspberry Pi"]
     }
   ]
-
 }
