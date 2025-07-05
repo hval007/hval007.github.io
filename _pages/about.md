@@ -13,12 +13,20 @@ social: false # includes social icons at the bottom of the page
 ## About Me
 I'm interested in web technologies and open source, and I enjoy learning by working on homelab projects. I like exploring new ideas and improving my skills. Outside of tech, I spend time with my family and enjoy being outdoors.
 
+
+
+
+
 Currently listening to:
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3737154637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://asuddenburstofcolour.bandcamp.com/album/galvanize-lp">Galvanize [LP] by A Sudden Burst of Colour</a></iframe>
 
 
-Contact me using the form below
+
+
+
+
+
 
 ## Contact Me
 
