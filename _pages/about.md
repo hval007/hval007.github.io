@@ -9,6 +9,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
+profile:
+  align: right
+  image: prof_pic_color.jpg
+  image_circular: true # crops the image to make it circular
+
 ## About Me
 
 I'm interested in web technologies and open source, and I enjoy learning by working on homelab projects. I like exploring new ideas and improving my skills. Outside of tech, I spend time with my family and enjoy being outdoors.
