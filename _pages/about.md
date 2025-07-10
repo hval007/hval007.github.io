@@ -10,22 +10,20 @@ social: false # includes social icons at the bottom of the page
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hemantpic.jpg
   image_circular: true # crops the image to make it circular
 
 ---
 
 ## About Me
 
-I'm interested in web technologies and open source, and I enjoy learning by working on homelab projects. I like exploring new ideas and improving my skills. Outside of tech, I spend time with my family and enjoy being outdoors.
+I'm passionate about web technologies and open source, constantly learning and experimenting through hands-on homelab projects. Exploring new ideas and sharpening my skills is what drives me in the tech world.
 
-<br><br>
+When I’m not immersed in code or tech, I love spending quality time with my family and enjoying the great outdoors.
 
-Currently listening to:
+This website itself is a part of my journey—built using GitHub Pages. Initially, I considered self-hosting after purchasing a short domain, but GitHub Pages offered a simple, free solution that lets me use my own domain while keeping my projects public and accessible.
 
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3737154637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://asuddenburstofcolour.bandcamp.com/album/galvanize-lp">Galvanize [LP] by A Sudden Burst of Colour</a></iframe>
-
-<br><br>
+Here, I’ll be sharing my projects, current work, and creative ideas—so feel free to explore and follow along!
 
 
 ## Contact Me
