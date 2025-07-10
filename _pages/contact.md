@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Contact
+title: contact
 permalink: /contact/
 nav: true
 nav_order: 5
 ---
 
-## Contact Me
 
 <form method="post" action="https://formowl.dev/api/@/PSz2oL">
     <label for="firstName">First Name</label><br>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Self Hosted Apps, Tools & Home Automation
+description: HomeLabbing
 img: assets/img/12.jpg
 importance: 1
 category: work
