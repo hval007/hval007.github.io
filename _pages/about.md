@@ -17,11 +17,14 @@ profile:
 
 ## About Me
 
-I am an enthusiastic technology professional with a passion for web technologies, open source, and continuous learning. My hands-on experience with homelab projects and experimentation has enabled me to develop a strong foundation in IT and software development.
+I am a technology professional with a passion for web technologies, open source, and continuous learning. 
+My current employment is the field of Customer support for Self service payment solutions in the Petroleum industry.
 
-Outside of work, I enjoy spending quality time with my family and exploring the outdoors. I believe in maintaining a healthy work-life balance and am always eager to take on new challenges that foster both personal and professional growth.
+Over the years I have built a homelab with inexpensive computing (almost all second hand) which allowed me to continue learning and experimenting with tech. 
 
-This website serves as a portfolio of my projects, current work, and ideas. Built using GitHub Pages, it reflects my commitment to sharing knowledge and making my work accessible to the wider community.
+Outside of work, I enjoy spending time with my family and exploring the outdoors. With young kids, we always look forward to camping trips in summer including visiting the beautiful beaches of Auckland.
 
-Feel free to explore my projects and connect with me for collaboration or discussion.
+This website serves as a portfolio of my projects, current work, and ideas. 
+Built using GitHub Pages, it is free to use and is hosted by Github which means you can build and deploy the site with ease.
+
 
