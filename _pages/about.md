@@ -12,7 +12,7 @@ profile:
   align: right
   image: hemantpic.jpg
   image_circular: true # crops the image to make it circular
-  profile_image_size: 80px
+  profile_image_size: 50px
 ---
 
 ## About Me
