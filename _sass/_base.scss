@@ -192,6 +192,12 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+/* Profile image size override */
+.profile img {
+  max-width: 50px;
+  height: auto;
+}
+
 .profile {
   width: 100%;
 
