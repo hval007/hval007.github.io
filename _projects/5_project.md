@@ -8,7 +8,7 @@ importance: 3
 category: fun
 ---
 
-This idea came from watching recent world conflicts unfold. I wanted a simple way to visualise what’s happening globally and show an aggregated Global Threat Level in one place.
+This idea came from watching recent world conflicts unfold. I wanted a simple way to visualise what’s happening globally and show an aggregated Global Threat Level in one place and thats how [DoomsdayGlobe](https://www.doomsdayglobe.com/) came into existence.
 
 Using [lovable.ai](https://lovable.dev/), I built a working site in about three hours that displays real-time global conflicts on an interactive globe.
 
@@ -25,9 +25,10 @@ Steps
 
 Results
 
-The site now receives around 4,000 organic page views. That may not be huge, but traffic wasn’t the main goal.
+The site now receives around 4,000 organic page views per month. That may not be huge, but traffic wasn’t the main goal.
 
 The real achievement for me was proving that an idea could be turned into a working product in just a few hours using AI.
+
 
 What’s Next
 
