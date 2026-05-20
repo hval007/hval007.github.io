@@ -9,76 +9,213 @@ related_publications: true
 
 ---
 
-Every project has a beautiful feature showcase page. Test
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# My Budget Home Lab & Self-Hosted Server Rack Setup
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Over the years I’ve slowly built up a small home server rack that now runs most of my self-hosted services. Almost all of the equipment was either rescued from eWaste, repaired, repurposed, or purchased second-hand for cheap.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+I enjoy giving old enterprise hardware a second life rather than letting it end up in landfill, and honestly, you can build an incredibly capable home lab on a very small budget if you’re willing to tinker.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Core Infrastructure
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### 1. Proxmox VE
 
-{% raw %}
+My main virtualization platform. I run Proxmox across a couple of HP Mini PCs which host all of my containers and virtual machines.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image"
-    class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image"
-    class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Proxmox has been incredibly stable and gives me enterprise-level virtualization features like:
 
-{% endraw %}
+* VM and container management
+* Snapshots
+* Backups
+* High flexibility for self-hosting
+* Easy web-based management
+
+For a home lab, it’s hard to beat.
+
+---
+
+### 2. Proxmox Backup Server
+
+I run Proxmox Backup Server virtually on my Synology RackStation.
+
+This handles:
+
+* Scheduled VM backups
+* Deduplication
+* Fast restores
+* Backup verification
+
+Having proper backups completely changes the confidence level when experimenting with self-hosted services.
+
+---
+
+### 3. Synology RackStation RS815+ (4 × 8TB HDD)
+
+This is my main storage array.
+
+Interestingly, this unit actually failed due to the well-known Synology hardware issue related to circuit degradation. Instead of throwing it away, I repaired it myself by soldering in a simple 100-ohm resistor — an $8 fix that brought the entire RackStation back to life.
+
+Moments like this are why I enjoy homelabbing so much:
+
+* learning new skills
+* repairing hardware
+* reducing eWaste
+* saving thousands of dollars
+
+The RS815+ now continues to run reliably as part of my infrastructure.
+
+---
+
+## Compute Hosts
+
+### HP Mini PC Cluster
+
+My workloads currently run on a couple of simple HP Mini PCs with the following specs:
+
+* 6 × Intel Core i5-8500T CPUs @ 2.10GHz
+* 8GB RAM
+* 256GB SSD storage
+
+These tiny machines are:
+
+* power efficient
+* quiet
+* cheap to acquire second-hand
+* surprisingly capable for virtualization
+
+For most home lab workloads, they’re more than enough.
+
+---
+
+# Self-Hosted Applications & Services
+
+Below are some of the applications and services currently running in my Proxmox environment.
+
+---
+
+### Paperless-ngx
+
+A document management system that digitizes and organizes paperwork.
+
+I use it to:
+
+* scan invoices and receipts
+* store warranties
+* archive important documents
+* make everything searchable with OCR
+
+It has basically become my personal digital filing cabinet.
+
+---
+
+### Syncthing
+
+An open-source file synchronization platform.
+
+It securely syncs files between devices without relying on cloud providers. I use it for:
+
+* automatic phone backups
+* document syncing
+* transferring files between systems
+
+---
+
+### Ubuntu
+
+A general-purpose Linux VM used for testing, development, and running miscellaneous workloads.
+
+Ubuntu is usually my default environment whenever I want to experiment with something new.
+
+---
+
+### OpenClaw
+
+An open-source recreation of the classic Captain Claw game.
+
+This one is mostly for fun and nostalgia — because not everything in a home lab needs to be “productive.”
+
+---
+
+### UniFi
+
+I self-host the UniFi Controller to manage my home networking equipment.
+
+This gives me centralized management for:
+
+* Wi-Fi access points
+* VLANs
+* network monitoring
+* guest networks
+* traffic visibility
+
+---
+
+### Pi-hole
+
+A network-wide DNS ad blocker.
+
+Pi-hole blocks ads and trackers across all devices in the house, improving:
+
+* privacy
+* browsing speed
+* overall network cleanliness
+
+It’s one of those tools that becomes impossible to live without once installed.
+
+---
+
+### Docker
+
+Docker allows me to quickly deploy and manage lightweight applications in containers.
+
+It makes experimenting with new services incredibly easy and keeps applications isolated and portable.
+
+---
+
+### Caddy
+
+A modern web server and reverse proxy with automatic HTTPS support.
+
+Caddy handles:
+
+* reverse proxying
+* SSL certificates
+* secure access to internal services
+
+The automatic certificate management is especially nice.
+
+---
+
+### Home Assistant
+
+My smart home automation platform.
+
+It ties together various smart devices around the house and allows for:
+
+* automation routines
+* energy monitoring
+* dashboards
+* smart lighting
+* notifications
+
+Self-hosting it keeps everything local and under my control.
+
+---
+
+# Why I Self-Host
+
+For me, self-hosting is a combination of:
+
+* learning
+* experimentation
+* sustainability
+* privacy
+* problem solving
+
+There’s something incredibly satisfying about building useful infrastructure from recycled hardware and keeping older equipment out of landfill.
+
+It also proves that you don’t need expensive enterprise servers to build a capable and reliable home lab. A few second-hand mini PCs, some patience, and a willingness to learn can go a long way.
+
+
+
