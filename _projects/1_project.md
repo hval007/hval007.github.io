@@ -6,18 +6,16 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: false
-
 ---
-
-
 
 # My Budget Home Lab & Self-Hosted Server Rack Setup
 
-*Homelabbing* is the practice of setting up your own physical or virtual servers at home. 
+_Homelabbing_ is the practice of setting up your own physical or virtual servers at home.
 
 Over the years I’ve slowly built up a small home server rack that now runs most of my self hosted services. Almost all of the equipment was either rescued from eWaste, repaired, repurposed, or purchased second-hand for cheap.
 
 I enjoy giving old enterprise hardware a second life rather than letting it end up in landfill, and honestly, you can build an incredibly capable home lab on a very small budget if you’re willing to tinker.
+
 ## Table of Contents
 
 - [Why I Self-Host](#why-i-self-host)
@@ -38,18 +36,18 @@ I enjoy giving old enterprise hardware a second life rather than letting it end 
   - [Caddy](#caddy)
   - [Home Assistant](#home-assistant)
   - [Portainer](#portainer)
-  
+
 ---
 
 # Why I Self-Host
 
 For me, self-hosting is a combination of:
 
-* learning
-* experimentation
-* sustainability
-* privacy
-* problem solving
+- learning
+- experimentation
+- sustainability
+- privacy
+- problem solving
 
 There’s something incredibly satisfying about building useful infrastructure from recycled hardware and keeping older equipment out of landfill.
 
@@ -65,11 +63,11 @@ My main virtualization platform. I run Proxmox across a couple of HP Mini PCs wh
 
 Proxmox has been incredibly stable and gives me enterprise evel virtualization features like:
 
-* VM and container management
-* Snapshots
-* Backups
-* High flexibility for self-hosting
-* Easy web-based management
+- VM and container management
+- Snapshots
+- Backups
+- High flexibility for self-hosting
+- Easy web-based management
 
 For a home lab, it’s hard to beat.
 
@@ -81,13 +79,12 @@ I run Proxmox Backup Server virtually on my Synology RackStation.
 
 This handles:
 
-* Scheduled VM backups
-* Deduplication
-* Fast restores
-* Backup verification
+- Scheduled VM backups
+- Deduplication
+- Fast restores
+- Backup verification
 
 Having proper backups completely changes the confidence level when experimenting with selfhosted services.
-
 
 ---
 
@@ -99,13 +96,14 @@ Interestingly, I managed to pick this unit from work when they were removing the
 
 Moments like this are why I enjoy homelabbing so much:
 
-* learning new skills
-* repairing hardware
-* reducing eWaste
-* saving thousands of dollars
+- learning new skills
+- repairing hardware
+- reducing eWaste
+- saving thousands of dollars
 
 The RS815+ now continues to run reliably as part of my infrastructure.
 The synology backs up to another unit at my parents home overnight to provide some redundancy
+
 ---
 
 ## Compute Hosts
@@ -114,16 +112,16 @@ The synology backs up to another unit at my parents home overnight to provide so
 
 My workloads currently run on a couple of simple HP Mini PCs with the following specs:
 
-* 6 × Intel Core i5-8500T CPUs @ 2.10GHz
-* 8GB RAM
-* 256GB SSD storage
+- 6 × Intel Core i5-8500T CPUs @ 2.10GHz
+- 8GB RAM
+- 256GB SSD storage
 
 These tiny machines are:
 
-* power efficient
-* quiet
-* cheap to acquire second-hand
-* surprisingly capable for virtualization
+- power efficient
+- quiet
+- cheap to acquire second-hand
+- surprisingly capable for virtualization
 
 For most home lab workloads, they’re more than enough.
 
@@ -141,10 +139,10 @@ A document management system that digitizes and organizes paperwork.
 
 I use it to:
 
-* scan invoices and receipts
-* store warranties
-* archive important documents
-* make everything searchable with OCR
+- scan invoices and receipts
+- store warranties
+- archive important documents
+- make everything searchable with OCR
 
 It has basically become my personal digital filing cabinet.
 
@@ -156,9 +154,9 @@ An open-source file synchronization platform.
 
 It securely syncs files between devices without relying on cloud providers. I use it for:
 
-* automatic phone backups
-* document syncing
-* transferring files between systems
+- automatic phone backups
+- document syncing
+- transferring files between systems
 
 ---
 
@@ -174,7 +172,6 @@ Ubuntu is usually my default environment whenever I want to experiment with some
 
 This was a open source AI model recently released. Not fully operational yet but its close
 
-
 ---
 
 ### UniFi
@@ -183,11 +180,11 @@ I self-host the UniFi Controller to manage my home networking equipment.
 
 This gives me centralized management for:
 
-* Wi-Fi access points
-* VLANs
-* network monitoring
-* guest networks
-* traffic visibility
+- Wi-Fi access points
+- VLANs
+- network monitoring
+- guest networks
+- traffic visibility
 
 ---
 
@@ -197,9 +194,9 @@ A network-wide DNS ad blocker.
 
 Pi-hole blocks ads and trackers across all devices in the house, improving:
 
-* privacy
-* browsing speed
-* overall network cleanliness
+- privacy
+- browsing speed
+- overall network cleanliness
 
 It’s one of those tools that becomes impossible to live without once installed.
 
@@ -216,14 +213,14 @@ It makes experimenting with new services incredibly easy and keeps applications 
 ### Caddy
 
 A modern web server and reverse proxy with automatic HTTPS support.
-Mainly it provides SSL certificates to my domain which I use internally to access services without having to remember the IP:Port 
+Mainly it provides SSL certificates to my domain which I use internally to access services without having to remember the IP:Port
 For example, I can access Proxmox via *https://proxmox.mywebsite.com* internally on my LAN
 
 Caddy handles:
 
-* reverse proxying
-* SSL certificates
-* secure access to internal services
+- reverse proxying
+- SSL certificates
+- secure access to internal services
 
 The automatic certificate management is especially nice.
 
@@ -235,11 +232,11 @@ My smart home automation platform.
 
 It ties together various smart devices around the house and allows for:
 
-* automation routines
-* energy monitoring
-* dashboards
-* smart lighting
-* notifications
+- automation routines
+- energy monitoring
+- dashboards
+- smart lighting
+- notifications
 
 Self hosting it keeps everything local and under my control.
 
@@ -250,6 +247,3 @@ Self hosting it keeps everything local and under my control.
 Provides a useful containerised tool to manage docker containers. I have some minor containers installed via Portainer, its an abolute gem of a tool.
 
 ---
-
-
-

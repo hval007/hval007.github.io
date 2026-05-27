@@ -6,7 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-
 Currently listening to:
 
 <!-- Example embedded player or playlist -->
