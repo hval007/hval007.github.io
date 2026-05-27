@@ -13,7 +13,9 @@ related_publications: false
 
 # My Budget Home Lab & Self-Hosted Server Rack Setup
 
-Over the years I’ve slowly built up a small home server rack that now runs most of my self-hosted services. Almost all of the equipment was either rescued from eWaste, repaired, repurposed, or purchased second-hand for cheap.
+*Homelabbing* is the practice of setting up your own physical or virtual servers at home. 
+
+Over the years I’ve slowly built up a small home server rack that now runs most of my self hosted services. Almost all of the equipment was either rescued from eWaste, repaired, repurposed, or purchased second-hand for cheap.
 
 I enjoy giving old enterprise hardware a second life rather than letting it end up in landfill, and honestly, you can build an incredibly capable home lab on a very small budget if you’re willing to tinker.
 ## Table of Contents
@@ -36,6 +38,7 @@ I enjoy giving old enterprise hardware a second life rather than letting it end 
   - [Caddy](#caddy)
   - [Home Assistant](#home-assistant)
   - [Portainer](#portainer)
+  
 ---
 
 # Why I Self-Host
@@ -214,7 +217,7 @@ It makes experimenting with new services incredibly easy and keeps applications 
 
 A modern web server and reverse proxy with automatic HTTPS support.
 Mainly it provides SSL certificates to my domain which I use internally to access services without having to remember the IP:Port 
-For example, I can access Proxmox via https://proxmox.mywebsite.com internally on my LAN
+For example, I can access Proxmox via *https://proxmox.mywebsite.com* internally on my LAN
 
 Caddy handles:
 
